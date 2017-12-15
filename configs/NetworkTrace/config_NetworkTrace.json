@@ -1,0 +1,48 @@
+{
+  "highlighterDetails": {
+    "imageData": "/webappbuilder/apps/2/widgets/NetworkTrace//images/ani/default.gif",
+    "height": 100,
+    "width": 100,
+    "timeout": 1000
+  },
+  "geoprocessing": {
+    "url": "https://landscape1.arcgis.com/arcgis/rest/services/Tools/ExtractData/GPServer/Extract%20Landscape%20Source%20Data",
+    "inputs": [
+      {
+        "paramName": "Study_Area",
+        "displayName": "Study Area",
+        "toolTip": "The study area used to select features from the landscape layer. Either choose a polygon dataset with your study area, or click on the Study_Area item below to digitize a study area to use. If a polygon dataset is specified, the first feature will be used to select the features in the specified landscape layer. Each of the landscape layers has potentially different densities and complexities of features, therefore the maximum size of study area and the maximum number of features that can be extracted is varied to allow for reasonable file transfer performance. If your study area is too large, an error message describing how oversized the study area was will be shown to give a better idea of what size is supported for the selected landscape layer..",
+        "type": "Flag",
+        "symbol": {
+          "color": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "size": 18,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": [
+              0,
+              0,
+              128,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "marker": null
+          }
+        }
+      }
+    ],
+    "outputs": []
+  },
+  "displayTextForRunButton": "Run",
+  "autoZoomAfterTrace": false
+}
